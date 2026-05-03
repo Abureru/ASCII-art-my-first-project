@@ -1,7 +1,7 @@
 ---
 title: "ASCII-ART Pt 1 "
 datePublished: 2026-03-27T12:48:25.131Z
-cuid: cmn8wddlz000m1qng8v2v5n8z
+cuid: cm
 slug: ascii-art-pt-1
 
 ---
