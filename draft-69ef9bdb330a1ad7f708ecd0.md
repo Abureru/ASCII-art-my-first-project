@@ -163,12 +163,15 @@ Desmos also supports several shortcuts and controls that can make graphing faste
     
 *   **Click and Drag the Expression Panel Border** — Resize the expression panel
     
-*   **Click the Coloured Circle** — Hide/show expressions or access styling options
-    
-    * * *
-    
-    Overall, Desmos can seem complicated at first, but once you get used to the interface and tools it would become much easier. The best way to improve is just experimenting with the features yourself and seeing what different expressions can do.
-    
-    This guide mainly focused on the interface and navigation side of Desmos. In future sections I plan to cover more practical topics such as sliders, restrictions, tracing art, and other techniques that I personally use.
-    
-    Hopefully this guide was helpful, and good luck with your graphing :D
+
+**Click the Coloured Circle** — Hide/show expressions or access styling options
+
+* * *
+
+Overall, Desmos can seem complicated at first, but once you get used to the interface and tools it would become much easier. The best way to improve is just experimenting with the features yourself and seeing what different expressions can do.
+
+This guide mainly focused on the interface and navigation side of Desmos. In future sections I plan to cover more practical topics such as sliders, restrictions, tracing art, and other techniques that I personally use.
+
+Hopefully this guide was helpful, and good luck with your graphing :D
+
+Here is my [YouTube Channel](https://www.youtube.com/@yoru_akuji)
