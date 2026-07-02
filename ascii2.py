@@ -7,6 +7,19 @@ def section(answer,artsection):
       (b) see my option
        Answer here: """)
       return choice1
+    
+def ran(dic):
+    print("You chose random!")
+    import random
+    num = random.randint(1,3)
+    if num == 1:
+      print(dic['a'])
+    elif num == 2:
+      print(dic['b'])
+    elif num == 3:
+      print(dic['c'])
+      
+      
 dict1 = {'a': """                _                 _
      __ _ ____ (_)_ __ ___   __ _| |___ 
     / _` | '_ \| | '_ ` _ \ / _` | / __|
@@ -197,15 +210,7 @@ while ans not in 'abcd':
 choice1 = section(ans, dict_start[ans])
 if ans == 'a':
   if choice1 == 'a':
-    print("You chose random!")
-    import random
-    num = random.randint(1,3)
-    if num == 1:
-      print(dict_animal['a'])
-    elif num == 2:
-      print(dict_animal['b'])
-    elif num == 3:
-      print(dict_animal['c'])
+    print(ran(dict_animal))
   elif choice1 == 'b':
       print("""
         (a) Cat
@@ -219,15 +224,7 @@ if ans == 'a':
       
 elif ans == 'b':
   if choice1 == 'a':
-    print("You chose random!")
-    import random
-    num = random.randint(1,3)
-    if num == 1:
-      print(dict_music['a'])
-    elif num == 2:
-      print(dict_music['b'])
-    elif num == 3:
-      print(dict_music['c'])
+    print(ran(dict_music))
   elif choice1 == 'b':
       print("""
         (a) Drum
@@ -242,15 +239,7 @@ elif ans == 'b':
       
 elif ans == 'c':
   if choice1 == 'a':
-    print("You chose random!")
-    import random
-    num = random.randint(1,3)
-    if num == 1:
-      print(dict_plant['a'])
-    elif num == 2:
-      print(dict_plant['b'])
-    elif num == 3:
-      print(dict_plant['c'])
+    print(ran(dict_plant))
   elif choice1 == 'b':
       print("""
         (a) Maple leaf
@@ -266,15 +255,7 @@ elif ans == 'd':
   while choice1 not in 'ab':
       choice1 = input("Error T^T!!! Try again: ")
   if choice1 == 'a':
-    print("You chose random!")
-    import random
-    num = random.randint(1,3)
-    if num == 1:
-      print(dict_building['a'])
-    elif num == 2:
-      print(dict_building['b'])
-    elif num == 3:
-      print(dict_building['c'])
+    print(ran(dict_building))
   elif choice1 == 'b':
       print("""
         (a) House
@@ -285,6 +266,5 @@ elif ans == 'd':
       while option1 not in 'abc':
           option1 = input("Error T^T!!! Try again: ")
       print(dict_building[option1])
-
-      
+    
 
