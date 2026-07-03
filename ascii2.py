@@ -6,6 +6,8 @@ def section(answer,artsection):
       (a) random
       (b) see my option
        Answer here: """)
+      while choice1 not in 'ab':
+          choice1 = input("Error T^T!!! Try again: ")
       return choice1
     
 def ran(dic):
@@ -13,12 +15,17 @@ def ran(dic):
     import random
     num = random.randint(1,3)
     if num == 1:
-      print(dic['a'])
+      return(dic['a'])
     elif num == 2:
-      print(dic['b'])
+      return(dic['b'])
     elif num == 3:
-      print(dic['c'])
-      
+      return(dic['c'])
+    
+def option(dic):
+      option1 = input("Input your option: ")
+      while option1 not in 'abc':
+          option1 = input("Error T^T!!! Try again: ")
+      return(dic[option1])  
       
 dict1 = {'a': """                _                 _
      __ _ ____ (_)_ __ ___   __ _| |___ 
@@ -193,9 +200,6 @@ _||_||_
 -------
 """}
 
-# efficient way dictionary (name + pattern)
-# def functions to remove repetive words
-
 print("""Welcome to Ascii Art generator!!!
     (a) Animals
     (b) Music instruments
@@ -217,11 +221,8 @@ if ans == 'a':
         (b) Dog
         (c) Wolf
         """)
-      option1 = input("Input your option: ")
-      print(dict_animal[option1])
-  else:
-      print("error")
-      
+      print (option(dict_animal))
+
 elif ans == 'b':
   if choice1 == 'a':
     print(ran(dict_music))
@@ -231,12 +232,8 @@ elif ans == 'b':
         (b) Trumpet
         (c) Guitar
         """)
-      option1 = input("Input your option: ")
-      print(dict_music[option1])
-  else:
-      print("error")
-      
-      
+      print (option(dict_music))
+     
 elif ans == 'c':
   if choice1 == 'a':
     print(ran(dict_plant))
@@ -246,11 +243,8 @@ elif ans == 'c':
         (b) Rose
         (c) Cactus
         """)
-      option1 = input("Input your option: ")
-      print(dict_plant[option1])
-  else:
-      print("error")
-      
+      print (option(dict_plant))
+ 
 elif ans == 'd':
   while choice1 not in 'ab':
       choice1 = input("Error T^T!!! Try again: ")
@@ -262,9 +256,4 @@ elif ans == 'd':
         (b) Castle
         (c) Lighthouse
         """)
-      option1 = input("Input your option: ")
-      while option1 not in 'abc':
-          option1 = input("Error T^T!!! Try again: ")
-      print(dict_building[option1])
-    
-
+      print (option(dict_building))
